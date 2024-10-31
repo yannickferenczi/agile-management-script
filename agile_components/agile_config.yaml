@@ -1,93 +1,81 @@
 agile_components:
-    categories:
-        - authentication_and_security:
-          enabled: True
-          features:
-                - account_recovery:
-                    enabled: False
-                - audit_logging:
-                  enabled: False
-                - captcha_recaptcha:
-                  enabled: False
-                - multi_factor_authentication:
-                  enabled: False
-                - oauth2_and_social_login:
-                  enabled: False
-                - passwordless_login:
-                  enabled: False
-                - role_based_access_control:
-                  enabled: False
-                - user_registration:
-                  enabled: False
-        - business_related:
-          enabled: False
-          features:
-                - custom_reports:
-                  enabled: False
-                - geolocation_services:
-                  enabled: False
-                - order_tracking_and_history:
-                  enabled: False
-                - payment_integration:
-                  enabled: False
-                - scheduler_and_calendar:
-                  enabled: False
-                - shopping_cart_and_checkout:
-                  enabled: False
-                - subscription_management:
-                  enabled: False
-                - user_behavior_tracking:
-                  enabled: False
-                - wishlist:
-                  enabled: False
-        - performance_and_optimization:
-          enabled: False
-          features:
-                - background_tasks:
-                  enabled: False
-                - caching:
-                  enabled: False
-                - image_optimization:
-                  enabled: False
-                - progressive_web_app:
-                  enabled: False
-        - user_interface:
-          enabled: False
-          features:
-            - admin_dashboard:
-              enabled: False
-            - content_recommendations:
-              enabled: False
-            - customizable_layout:
-              enabled: False
-            - dark_mode_and_light_mode:
-              enabled: False
-            - drag_and_drop:
-              enabled: False
-            - header_and_footer:
-              enabled: False
-            - in_app_feedback:
-              enabled: False
-            - interactive_maps:
-              enabled: False
-            - live_chat:
-              enabled: False
-            - multi_language_support:
-              enabled: False
-            - offline_mode:
-              enabled: False
-            - onboarding_and_tutorials:
-              enabled: False
-            - push_notifications:
-              enabled: False
-            - rich_media_support:
-              enabled: False
-            - search_and_filter:
-              enabled: False
-            - social_sharing:
-              enabled: False
-            - user_profiles:
-              enabled: False
+    features:
+        - name: account_recovery
+            enabled: False
+        - name: audit_logging
+            enabled: False
+        - name: captcha_recaptcha
+            enabled: False
+        - name: multi_factor_authentication
+            enabled: False
+        - name: oauth2_and_social_login
+            enabled: False
+        - name: passwordless_login
+            enabled: False
+        - name: role_based_access_control
+            enabled: False
+        - name: user_registration
+            enabled: False
+        - name: custom_reports
+            enabled: False
+        - name: geolocation_services
+            enabled: False
+        - name: order_tracking_and_history
+            enabled: False
+        - name: payment_integration
+            enabled: False
+        - name: scheduler_and_calendar
+            enabled: False
+        - name: shopping_cart_and_checkout
+            enabled: False
+        - name: subscription_management
+            enabled: False
+        - name: user_behavior_tracking
+            enabled: False
+        - name: wishlist
+            enabled: False
+        - name: background_tasks
+            enabled: False
+        - name: caching
+            enabled: False
+        - name: image_optimization
+            enabled: False
+        - name: progressive_web_app
+            enabled: False
+        - name: admin_dashboard
+            enabled: False
+        - name: content_recommendations
+            enabled: False
+        - name: customizable_layout
+            enabled: False
+        - name: dark_mode_and_light_mode
+            enabled: False
+        - name: drag_and_drop
+            enabled: False
+        - name: header_and_footer
+            enabled: False
+        - name: in_app_feedback
+            enabled: False
+        - name: interactive_maps
+            enabled: False
+        - name: live_chat
+            enabled: False
+        - name: multi_language_support
+            enabled: False
+        - name: offline_mode
+            enabled: False
+        - name: onboarding_and_tutorials
+            enabled: False
+        - name: push_notifications
+            enabled: False
+        - name: rich_media_support
+            enabled: False
+        - name: search_and_filter
+            enabled: False
+        - name: social_sharing
+            enabled: False
+        - name: user_profiles
+            enabled: False
     labels:
         - name: High
           description: Highest priority
