@@ -1,0 +1,155 @@
+agile_components:
+    categories:
+        - authentication_and_security:
+          enabled: True
+          features:
+                - account_recovery:
+                    enabled: False
+                - audit_logging:
+                  enabled: False
+                - captcha_recaptcha:
+                  enabled: False
+                - multi_factor_authentication:
+                  enabled: False
+                - oauth2_and_social_login:
+                  enabled: False
+                - passwordless_login:
+                  enabled: False
+                - role_based_access_control:
+                  enabled: False
+                - user_registration:
+                  enabled: False
+        - business_related:
+          enabled: False
+          features:
+                - custom_reports:
+                  enabled: False
+                - geolocation_services:
+                  enabled: False
+                - order_tracking_and_history:
+                  enabled: False
+                - payment_integration:
+                  enabled: False
+                - scheduler_and_calendar:
+                  enabled: False
+                - shopping_cart_and_checkout:
+                  enabled: False
+                - subscription_management:
+                  enabled: False
+                - user_behavior_tracking:
+                  enabled: False
+                - wishlist:
+                  enabled: False
+        - performance_and_optimization:
+          enabled: False
+          features:
+                - background_tasks:
+                  enabled: False
+                - caching:
+                  enabled: False
+                - image_optimization:
+                  enabled: False
+                - progressive_web_app:
+                  enabled: False
+        - user_interface:
+          enabled: False
+          features:
+            - admin_dashboard:
+              enabled: False
+            - content_recommendations:
+              enabled: False
+            - customizable_layout:
+              enabled: False
+            - dark_mode_and_light_mode:
+              enabled: False
+            - drag_and_drop:
+              enabled: False
+            - header_and_footer:
+              enabled: False
+            - in_app_feedback:
+              enabled: False
+            - interactive_maps:
+              enabled: False
+            - live_chat:
+              enabled: False
+            - multi_language_support:
+              enabled: False
+            - offline_mode:
+              enabled: False
+            - onboarding_and_tutorials:
+              enabled: False
+            - push_notifications:
+              enabled: False
+            - rich_media_support:
+              enabled: False
+            - search_and_filter:
+              enabled: False
+            - social_sharing:
+              enabled: False
+            - user_profiles:
+              enabled: False
+    labels:
+        - name: High
+          description: Highest priority
+          color: fd0000
+        - name: Medium
+          description: 
+          color: fd7d0b
+        - name: Low
+          description: Lowest priority
+          color: f9cb17
+        - name: Feature
+          description: Implement a new feature
+          color: 00bd34
+        - name: Enhancement
+          description: Improve an existing feature
+          color: 0df38b
+        - name: Bug
+          description: Report incorrect or unexpected behavior
+          color: f90fe5
+        - name: Technical Task
+          description: Set ups, deployments, DevOps
+          color: 9f9f9f
+        - name: Documentation
+          description: Updating and Maintaining the documentation
+          color: f3f3f3
+        - name: Testing
+          description: Everything related to testing
+          color: 9b04d7
+        - name: Epic
+          description: Big achievements toward our goal
+          color: b02768
+        - name: User Story
+          description: Should be handled over a sprint
+          color: f37c9d
+        - name: ~ Front-End ~
+          description: Task with a focus on front-end development
+          color: ffffff
+        - name: ~  Back-End ~
+          description: Task with a focus on back-end development
+          color: "101011"
+    milestones:
+        - name: UX Design
+          due_date: 2024-11-01 18:00:00
+          path_to_body:
+            - agile_components
+            - milestones
+            - ux.txt
+        - name: Minimum Viable Product
+          due_date: 2024-11-11 18:00:00
+          path_to_body:
+            - agile_components
+            - milestones
+            - mvp.txt
+        - name: First Enhancement
+          due_date: 2024-12-12 18:00:00
+          path_to_body:
+            - agile_components
+            - milestones
+            - first_enhancement.txt
+        - name: Fix Bugs + Production deployments
+          due_date: 2024-12-31 18:00:00
+          path_to_body:
+            - agile_components
+            - milestones
+            - first_release.txt
